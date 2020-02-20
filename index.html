@@ -13,7 +13,7 @@
                 text-decoration: none;
             }
             nav{
-                display: block;
+                width: 100%;
             }
             .google-logo{
                 display: block;
@@ -29,12 +29,17 @@
                 padding-right: 5px;
                 padding-top: 0px;
             }
+            .grid-icon{
+                width: 30px;
+                height: 30px;
+            }
             .user-icon{
-                width: 35px;
-                height: 35px;
+                width: 50px;
+                height: 50px;
                 border-radius: 50%;
                 padding-left: 5px;
                 padding-right: 5px;
+                padding-top: 10px;
             }
             .box{
                 margin: 20px auto;
@@ -45,7 +50,11 @@
             .box .container-1 input{
                 width: 590px;
                 height: 50;
-                /*border-radius: 5px;*/
+                background-color: transparent;
+                word-wrap: break-word;
+                height: 34px !important;
+                font: 16px arial, sans-serif;
+                border-radius: 15px;
             }
             .buttons{
                 margin: 20px auto;
@@ -80,7 +89,8 @@
             <nav class="toolbar">
                 <a href="http://gmail.com" class="toolbar-links">Gmail</a>
                 <a href="http://images.google.com" class="toolbar-links">Images</a>
-                <a href=""><img class="user-icon" src="https://lh3.googleusercontent.com/proxy/2bWSa2kIw1FLYBAUIe3LSnOOFZyD-5rPgLJZP_5MCW5SlRu7hDVf6Fi7b0kNp-84rs-0YmTyj8BY5WSyc31LZ486dvtR1Q"></img></a>
+                <a href="#"><img class="grid-icon" src="images/grid.png"></img></a>
+                <a href=""><img class="user-icon" src="images/user-icon.png"></img></a>
             </nav>
             <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
             <div class="box">
